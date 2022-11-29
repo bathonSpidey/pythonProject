@@ -1,7 +1,7 @@
 import pyrealsense2 as rs
 
 
-def saveply():
+def savePly():
     point_cloud = rs.pointcloud()
     points = rs.points()
     pipe = rs.pipeline()
@@ -23,4 +23,4 @@ def saveply():
 
 
 if __name__ == "__main__":
-    saveply()
+    savePly()
